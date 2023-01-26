@@ -51,6 +51,10 @@
     "url": "/assets/images/104438_blog_google_blogger_icon.svg",
     "alt": ""
   },
+  "76b99ec2": {
+    "url": "/assets/images/iconmonstr-email-11-240.png",
+    "alt": ""
+  },
   "2dcb0051": {
     "url": "/assets/images/help.svg",
     "alt": ""
@@ -115,6 +119,14 @@
     "url": "https://d3e54v103j8qbb.cloudfront.net/static/page-not-found.211a85e40c.svg",
     "alt": ""
   },
+  "557b94ed": {
+    "url": "/assets/images/copy-icon.svg",
+    "alt": ""
+  },
+  "76690fd4": {
+    "url": "/assets/images/copied.svg",
+    "alt": ""
+  },
   "30b82496": {
     "url": "/assets/images/check-icon-brix-templates.svg",
     "alt": ""
@@ -133,14 +145,6 @@
   },
   "-3982f6ff": {
     "url": "/assets/images/webflow-cloble-icon-pricing-3.svg",
-    "alt": ""
-  },
-  "557b94ed": {
-    "url": "/assets/images/copy-icon.svg",
-    "alt": ""
-  },
-  "76690fd4": {
-    "url": "/assets/images/copied.svg",
     "alt": ""
   }
 }

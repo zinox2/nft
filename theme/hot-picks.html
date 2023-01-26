@@ -176,6 +176,7 @@
         {%- unless collection.length == 0 -%}<div role="list" class="collection-list-4 w-dyn-items w-row">
           {%- for item in collection -%}<div role="listitem" class="w-dyn-item w-col w-col-3"><img loading="lazy" data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;40px&quot;},{&quot;max&quot;:1439,&quot;size&quot;:&quot;3vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;40px&quot;}]" src="{{ item.data.f_crypto-image.url }}" alt="{{ item.data.f_crypto-image.alt }}" class="image-22">
             <h1 class="heading-16 hot-drops">{{ item.data.f_drop-date | formatDate: "MMM d" }}</h1>
+            <h1 class="heading-16 hot-drops tba">{{ item.data.f_drop-date | formatDate: "MMM d" }}</h1>
             <div class="lottie-animation-7" data-w-id="8fb7c22d-76b9-7a56-6ecc-60bc65402e2c" data-animation-type="lottie" data-src="/assets/documents/95758-fire.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-duration="0"></div>
             <a href="{{ item.url }}" class="project-card w-inline-block">
               <div class="thumbnail" style="background-image: url('{{item.data.f_image.url}}');"></div>
@@ -198,6 +199,7 @@
       {%- unless collection.length == 0 -%}<div role="list" class="collection-list-4 w-dyn-items w-row">
         {%- for item in collection -%}<div role="listitem" class="collection-item-4 w-dyn-item w-col w-col-4"><img loading="lazy" data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;40px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_crypto-image.url }}" alt="{{ item.data.f_crypto-image.alt }}" class="image-22">
           <h1 class="heading-16 hot-drops">{{ item.data.f_drop-date | formatDate: "MMM d" }}</h1>
+          <h1 class="heading-16 hot-drops tba-mobile">{{ item.data.f_drop-date | formatDate: "MMM d" }}</h1>
           <div class="lottie-animation-7" data-w-id="3839f7c3-866b-7975-8afb-84808bc63c30" data-animation-type="lottie" data-src="/assets/documents/95758-fire.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-duration="0"></div>
           <a href="{{ item.url }}" class="project-card w-inline-block">
             <div class="thumbnail" style="background-image: url('{{item.data.f_image.url}}');"></div>

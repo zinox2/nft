@@ -155,6 +155,21 @@ collections:
             label: alt
             widget: string
             required: false
+      - hint: ''
+        name: f_twitter-link
+        label: Twitter link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_discord-link
+        label: Discord link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_website-link
+        label: website link
+        widget: string
+        required: false
       - label: Tags
         widget: hidden
         name: tags
@@ -238,6 +253,26 @@ collections:
             label: alt
             widget: string
             required: false
+      - hint: ''
+        name: f_twitter-link
+        label: twitter link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_website-link
+        label: website link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_discord-link
+        label: discord link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_tba-text
+        label: TBA TEXT
+        widget: string
+        required: false
       - label: Tags
         widget: hidden
         name: tags
@@ -620,10 +655,6 @@ collections:
             label: Text
             name: '-2da8d904'
             widget: string
-          - hint: 'Original text: Blog, key: 1fa3c2'
-            label: Text
-            name: 1fa3c2
-            widget: string
           - hint: 'Original text: Page Not Found, key: -40b0787c'
             label: Text
             name: '-40b0787c'
@@ -637,6 +668,140 @@ collections:
           - hint: 'Original text: upcoming drops, key: 17980760'
             label: Text
             name: '17980760'
+            widget: string
+          - hint: >-
+              Original text: Fill out the form to list your NFT project, key:
+              73225ee3
+            label: Text
+            name: 73225ee3
+            widget: string
+          - hint: 'Original text: On what blocchain is your project, key: -150224f6'
+            label: Text
+            name: '-150224f6'
+            widget: string
+          - hint: 'Original text: Ethereum, key: -50bf6be9'
+            label: Text
+            name: '-50bf6be9'
+            widget: string
+          - hint: 'Original text: Solana, key: -6c0f019c'
+            label: Text
+            name: '-6c0f019c'
+            widget: string
+          - hint: 'Original text: Polygon, key: 4b86ed1a'
+            label: Text
+            name: 4b86ed1a
+            widget: string
+          - hint: 'Original text: Cardano, key: -7bc3034e'
+            label: Text
+            name: '-7bc3034e'
+            widget: string
+          - hint: 'Original text: Other, key: 48f8ef0'
+            label: Text
+            name: 48f8ef0
+            widget: string
+          - hint: 'Original text: Details, key: -3fee75de'
+            label: Text
+            name: '-3fee75de'
+            widget: string
+          - hint: 'Original text: Upload your NFT image at , key: -13e9c84a'
+            label: Text
+            name: '-13e9c84a'
+            widget: string
+          - hint: 'Original text: https://imgbb.com/ , key: -51511988'
+            label: Text
+            name: '-51511988'
+            widget: string
+          - hint: >-
+              Original text: and copy paste the link in the field., key:
+              -12bbadca
+            label: Text
+            name: '-12bbadca'
+            widget: string
+          - hint: >-
+              Original text: want us to announce your project on our twitter
+              page? (187,4k followers), key: 5d623e1b
+            label: Text
+            name: 5d623e1b
+            widget: string
+          - hint: 'Original text: ‍, key: 200d'
+            label: Text
+            name: 200d
+            widget: string
+          - hint: 'Original text: 5$ special offer, key: 5685464'
+            label: Text
+            name: '5685464'
+            widget: string
+          - hint: >-
+              Original text: If yes, fill out the form under. If no, just skip
+              this part and click submit., key: 3816cdf9
+            label: Text
+            name: 3816cdf9
+            widget: string
+          - hint: >-
+              Original text: Choose the crypto you want to pay with, key:
+              -3991ca05
+            label: Text
+            name: '-3991ca05'
+            widget: string
+          - hint: 'Original text: ETH, key: 10d79'
+            label: Text
+            name: 10d79
+            widget: string
+          - hint: 'Original text: SOL, key: 14170'
+            label: Text
+            name: '14170'
+            widget: string
+          - hint: 'Original text: POLY, key: 258fcc'
+            label: Text
+            name: 258fcc
+            widget: string
+          - hint: 'Original text: USDT TRC20, key: 5d4efb91'
+            label: Text
+            name: 5d4efb91
+            widget: string
+          - hint: >-
+              Original text: Click to copy our crypto address. Send the crypto
+              and paste the Transaction Scan Link or Transaction Address, key:
+              7bd1c6d0
+            label: Text
+            name: 7bd1c6d0
+            widget: text
+          - hint: 'Original text: Address, key: 1ed033d4'
+            label: Text
+            name: 1ed033d4
+            widget: string
+          - hint: 'Original text: CARDANO, key: 4bcff0b2'
+            label: Text
+            name: 4bcff0b2
+            widget: string
+          - hint: >-
+              Original text: Thank you! Your submission has been received!, key:
+              5a0ea5a1
+            label: Text
+            name: 5a0ea5a1
+            widget: string
+          - hint: >-
+              Original text: If you need promo campaign rates or really
+              affordable custom made website for your NFT project, feel free to,
+              key: 303535f1
+            label: Text
+            name: 303535f1
+            widget: text
+          - hint: 'Original text: contact us, key: 8556e9e'
+            label: Text
+            name: 8556e9e
+            widget: string
+          - hint: |-
+              Original text: .
+                      , key: -7ec74664
+            label: Text
+            name: '-7ec74664'
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form., key: -7c112e99
+            label: Text
+            name: '-7c112e99'
             widget: string
           - hint: 'Original text: IT ALL STARTS WITH AGENDA, key: -1fcfe515'
             label: Text
@@ -878,140 +1043,6 @@ collections:
             label: Text
             name: 4adf10
             widget: string
-          - hint: >-
-              Original text: Fill out the form to list your NFT project, key:
-              73225ee3
-            label: Text
-            name: 73225ee3
-            widget: string
-          - hint: 'Original text: On what blocchain is your project, key: -150224f6'
-            label: Text
-            name: '-150224f6'
-            widget: string
-          - hint: 'Original text: Ethereum, key: -50bf6be9'
-            label: Text
-            name: '-50bf6be9'
-            widget: string
-          - hint: 'Original text: Solana, key: -6c0f019c'
-            label: Text
-            name: '-6c0f019c'
-            widget: string
-          - hint: 'Original text: Polygon, key: 4b86ed1a'
-            label: Text
-            name: 4b86ed1a
-            widget: string
-          - hint: 'Original text: Cardano, key: -7bc3034e'
-            label: Text
-            name: '-7bc3034e'
-            widget: string
-          - hint: 'Original text: Other, key: 48f8ef0'
-            label: Text
-            name: 48f8ef0
-            widget: string
-          - hint: 'Original text: Details, key: -3fee75de'
-            label: Text
-            name: '-3fee75de'
-            widget: string
-          - hint: 'Original text: Upload your NFT image at , key: -13e9c84a'
-            label: Text
-            name: '-13e9c84a'
-            widget: string
-          - hint: 'Original text: https://imgbb.com/ , key: -51511988'
-            label: Text
-            name: '-51511988'
-            widget: string
-          - hint: >-
-              Original text: and copy paste the link in the field., key:
-              -12bbadca
-            label: Text
-            name: '-12bbadca'
-            widget: string
-          - hint: >-
-              Original text: want us to announce your project on our twitter
-              page? (187,4k followers), key: 5d623e1b
-            label: Text
-            name: 5d623e1b
-            widget: string
-          - hint: 'Original text: ‍, key: 200d'
-            label: Text
-            name: 200d
-            widget: string
-          - hint: 'Original text: 5$ special offer, key: 5685464'
-            label: Text
-            name: '5685464'
-            widget: string
-          - hint: >-
-              Original text: If yes, fill out the form under. If no, just skip
-              this part and click submit., key: 3816cdf9
-            label: Text
-            name: 3816cdf9
-            widget: string
-          - hint: >-
-              Original text: Choose the crypto you want to pay with, key:
-              -3991ca05
-            label: Text
-            name: '-3991ca05'
-            widget: string
-          - hint: 'Original text: ETH, key: 10d79'
-            label: Text
-            name: 10d79
-            widget: string
-          - hint: 'Original text: SOL, key: 14170'
-            label: Text
-            name: '14170'
-            widget: string
-          - hint: 'Original text: POLY, key: 258fcc'
-            label: Text
-            name: 258fcc
-            widget: string
-          - hint: 'Original text: USDT TRC20, key: 5d4efb91'
-            label: Text
-            name: 5d4efb91
-            widget: string
-          - hint: >-
-              Original text: Click to copy our crypto address. Send the crypto
-              and paste the Transaction Scan Link or Transaction Address, key:
-              7bd1c6d0
-            label: Text
-            name: 7bd1c6d0
-            widget: text
-          - hint: 'Original text: Address, key: 1ed033d4'
-            label: Text
-            name: 1ed033d4
-            widget: string
-          - hint: 'Original text: CARDANO, key: 4bcff0b2'
-            label: Text
-            name: 4bcff0b2
-            widget: string
-          - hint: >-
-              Original text: Thank you! Your submission has been received!, key:
-              5a0ea5a1
-            label: Text
-            name: 5a0ea5a1
-            widget: string
-          - hint: >-
-              Original text: If you need promo campaign rates or really
-              affordable custom made website for your NFT project, feel free to,
-              key: 303535f1
-            label: Text
-            name: 303535f1
-            widget: text
-          - hint: 'Original text: contact us, key: 8556e9e'
-            label: Text
-            name: 8556e9e
-            widget: string
-          - hint: |-
-              Original text: .
-                      , key: -7ec74664
-            label: Text
-            name: '-7ec74664'
-            widget: string
-          - hint: >-
-              Original text: Oops! Something went wrong while submitting the
-              form., key: -7c112e99
-            label: Text
-            name: '-7c112e99'
-            widget: string
           - hint: 'Original text: 15$ - gold plan, key: -242a8eea'
             label: Text
             name: '-242a8eea'
@@ -1076,11 +1107,27 @@ collections:
             label: Link
             name: '23'
             widget: string
+          - hint: 'Original link: /contact-us-regarding-promo, key: -12df11ee'
+            label: Link
+            name: '-12df11ee'
+            widget: string
           - hint: >-
               Original link: https://www.sketchzlab.com/resources/support, key:
               -31ecbe92
             label: Link
             name: '-31ecbe92'
+            widget: string
+          - hint: >-
+              Original link: https://magiceden.io/marketplace/neo_hunters, key:
+              68ab9dc7
+            label: Link
+            name: 68ab9dc7
+            widget: string
+          - hint: >-
+              Original link: https://magiceden.io/marketplace/claynosaurz, key:
+              5560e248
+            label: Link
+            name: '5560e248'
             widget: string
           - hint: 'Original link: https://twitter.com/, key: 636eb9b8'
             label: Link
@@ -1100,6 +1147,10 @@ collections:
             label: Link
             name: 40ff4a06
             widget: string
+          - hint: 'Original link: https://imgbb.com/, key: 372eeea8'
+            label: Link
+            name: 372eeea8
+            widget: string
           - hint: 'Original link: /free-list-your-project, key: 271d961c'
             label: Link
             name: 271d961c
@@ -1111,14 +1162,6 @@ collections:
           - hint: 'Original link: /vip-listing, key: 68855545'
             label: Link
             name: '68855545'
-            widget: string
-          - hint: 'Original link: https://imgbb.com/, key: 372eeea8'
-            label: Link
-            name: 372eeea8
-            widget: string
-          - hint: 'Original link: /contact-us-regarding-promo, key: -12df11ee'
-            label: Link
-            name: '-12df11ee'
             widget: string
       - label: Images
         name: images
@@ -1286,6 +1329,19 @@ collections:
                 required: false
           - label: Image
             name: '-375a3b3a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 76b99ec2
             widget: object
             fields:
               - name: url
@@ -1506,6 +1562,32 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 557b94ed
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 76690fd4
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 30b82496
             widget: object
             fields:
@@ -1559,32 +1641,6 @@ collections:
                 required: false
           - label: Image
             name: '-3982f6ff'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 557b94ed
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 76690fd4
             widget: object
             fields:
               - name: url

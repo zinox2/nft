@@ -707,7 +707,7 @@ p {
 }
 
 .div-block-tablet._1.hotpicks-events.go-up-class {
-  margin-top: 0px;
+  margin-top: -179px;
 }
 
 .paragraph {
@@ -756,6 +756,7 @@ p {
 }
 
 .body {
+  height: 100%;
   background-color: #0a0a0a;
   background-image: var(--image-i388c993);
   background-position: 0px 0px;
@@ -981,6 +982,8 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 150px;
+  margin-bottom: 0px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -1096,9 +1099,17 @@ p {
   top: -20px;
 }
 
+.heading-16.hot-drops.tba {
+  margin-top: 13px;
+}
+
 .heading-16.regular-event {
   position: relative;
   top: 3px;
+}
+
+.heading-16.tba {
+  margin-top: 20px;
 }
 
 .div-block-27 {
@@ -1360,7 +1371,7 @@ p {
   top: -4px;
   z-index: 5;
   width: 60px;
-  margin-top: -62px;
+  margin-top: -49px;
   font-family: Oswald, sans-serif;
   color: #fff;
   font-size: 30px;
@@ -1375,6 +1386,15 @@ p {
 .heading-19.regular-event.regular {
   left: 25px;
   top: 89px;
+  margin-top: -61px;
+}
+
+.heading-19.regular-event.regular.tba {
+  margin-top: -116px;
+}
+
+.heading-19.date {
+  margin-top: -58px;
 }
 
 .lottie-animation-7 {
@@ -1627,8 +1647,13 @@ p {
 
 .div-block-32.upcoming-drops {
   position: relative;
-  top: 720px;
+  top: -108px;
+  margin-top: -288px;
   padding-bottom: 0px;
+}
+
+.div-block-32.upcoming-drops.mobile {
+  display: none;
 }
 
 .nav-button-animated {
@@ -1792,7 +1817,7 @@ p {
 }
 
 .link-block-3.upcoming-drops {
-  margin-top: 1491px;
+  margin-top: 0px;
   margin-left: 449px;
 }
 
@@ -1844,7 +1869,7 @@ p {
 }
 
 .body-5 {
-  height: auto;
+  height: 100%;
   background-image: var(--image-i388c993), var(--image-i388c993);
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -1863,6 +1888,7 @@ p {
 }
 
 .body-6 {
+  height: 100%;
   background-image: var(--image-i388c993);
   background-position: 50% 50%;
   background-size: cover;
@@ -2866,6 +2892,7 @@ p {
 }
 
 .body-8 {
+  height: 100%;
   background-image: var(--image-i59792047);
   background-position: 0% 0%;
   background-size: cover;
@@ -3024,12 +3051,14 @@ p {
 }
 
 .body-9 {
+  height: 100%;
   background-image: var(--image-i59792047);
   background-position: 100% 50%;
   background-size: auto;
 }
 
 .body-10 {
+  height: 100%;
   background-image: var(--image-i59792047);
   background-position: 100% 50%;
   background-size: auto;
@@ -3049,6 +3078,7 @@ p {
 
 .cf-footer-copyright-wrapper {
   width: 100%;
+  margin-bottom: 45px;
   padding-top: 32px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
@@ -3641,6 +3671,10 @@ p {
   margin-top: 0px;
 }
 
+.body-11 {
+  height: 100%;
+}
+
 .div-block-44 {
   background-image: var(--image-i2d325b22);
   background-position: 100% 0%;
@@ -3745,7 +3779,7 @@ p {
   }
 
   .div-block-32.upcoming-drops {
-    top: 648px;
+    top: -156px;
   }
 
   .link-block-3 {
@@ -3757,7 +3791,7 @@ p {
   }
 
   .link-block-3.upcoming-drops {
-    margin-top: 1470px;
+    margin-top: 24px;
   }
 
   .link-3 {
@@ -3786,6 +3820,10 @@ p {
   .text-single-200.medium.color-neutral-300 {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
+  }
+
+  .cf-footer-copyright-wrapper {
+    margin-bottom: 80px;
   }
 
   .cf-footer-links {
@@ -3825,13 +3863,23 @@ p {
 
 @media screen and (min-width: 1440px) {
   .div-block-tablet._1 {
-    margin-top: -305px;
+    margin-top: -183px;
     margin-bottom: 435px;
     padding-bottom: 0px;
   }
 
+  .div-block-tablet._1.hotpicks-events.go-up-class {
+    margin-top: -60px;
+    margin-bottom: 217px;
+  }
+
   .heading {
     margin-top: -160px;
+  }
+
+  .collection-list-4 {
+    margin-top: 29px;
+    margin-bottom: -180px;
   }
 
   .image-19 {
@@ -3865,6 +3913,7 @@ p {
   }
 
   .text-style-gradient.upcoming-drops {
+    margin-top: 0px;
     padding-bottom: 0px;
   }
 
@@ -3948,7 +3997,8 @@ p {
   }
 
   .div-block-32.upcoming-drops {
-    top: 597px;
+    top: -184px;
+    margin-top: -190px;
     margin-bottom: -51px;
   }
 
@@ -3957,7 +4007,7 @@ p {
   }
 
   .link-block-3.upcoming-drops {
-    margin-top: 1483px;
+    margin-top: 0px;
   }
 
   .cf-gradient-span {
@@ -3968,6 +4018,10 @@ p {
     background-image: var(--image-i388c993);
     background-position: 50% 50%;
     background-size: cover;
+  }
+
+  .body-6 {
+    height: 100%;
   }
 
   .pricing._1 {
@@ -4002,8 +4056,8 @@ p {
   }
 
   .div-block-tablet._1 {
-    margin-top: -429px;
-    margin-bottom: 592px;
+    margin-top: -181px;
+    margin-bottom: 291px;
     padding-bottom: 0px;
   }
 
@@ -4013,10 +4067,19 @@ p {
     margin-bottom: 0px;
   }
 
+  .div-block-tablet._1.hotpicks-events.go-up-class {
+    margin-top: -49px;
+    margin-bottom: 0px;
+  }
+
   .body {
     background-image: var(--image-i388c993);
     background-position: 0px 0px;
     background-attachment: fixed;
+  }
+
+  .collection-list-4 {
+    margin-bottom: 47px;
   }
 
   .collection-list-wrapper {
@@ -4052,6 +4115,10 @@ p {
 
   .div-block-26.main-page-regular-event.regular-event {
     top: 75.9972px;
+  }
+
+  .heading-16.hot-drops.tba {
+    margin-top: 16px;
   }
 
   .heading-16.regular-event {
@@ -4129,7 +4196,8 @@ p {
   }
 
   .div-block-32.upcoming-drops {
-    top: 476px;
+    top: -203px;
+    margin-top: -27px;
   }
 
   .link-block-3 {
@@ -4138,7 +4206,7 @@ p {
   }
 
   .link-block-3.upcoming-drops {
-    margin-top: 1615px;
+    margin-top: 0px;
   }
 
   .div-block-36 {
@@ -4242,8 +4310,20 @@ p {
     right: 421px;
   }
 
+  .body-9 {
+    height: 100%;
+  }
+
+  .cf-footer-wrapper {
+    height: auto;
+  }
+
   .footer-agenda {
-    margin-top: -473px;
+    margin-top: -166px;
+  }
+
+  .footer-agenda.hot-pickk {
+    display: block;
   }
 
   .footer-agenda.regular-listing {
@@ -4342,7 +4422,7 @@ p {
     display: block;
     overflow: visible;
     height: auto;
-    margin-top: -64px;
+    margin-top: -199px;
     margin-bottom: 0px;
     padding-left: 16px;
   }
@@ -4351,17 +4431,25 @@ p {
     margin-top: 0px;
   }
 
+  .div-block-tablet._1._2._3.go-up-class {
+    margin-top: -149px;
+  }
+
   .div-block-tablet._1._3 {
     display: block;
     overflow: visible;
     height: auto;
-    margin-top: -114px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 15px;
   }
 
   .div-block-tablet._1._3.tablet {
     margin-top: -47px;
+  }
+
+  .div-block-tablet._1._3.tablet.go-up-class {
+    margin-top: -150px;
   }
 
   .div-block-3 {
@@ -4418,8 +4506,25 @@ p {
     overflow: visible;
   }
 
+  .collection-list-4 {
+    margin-top: 138px;
+    margin-bottom: 0px;
+  }
+
+  .collection-list-wrapper._1 {
+    margin-top: 18px;
+  }
+
   .image-19 {
     margin-top: -13px;
+  }
+
+  .heading-16.hot-drops.tba {
+    margin-top: 12px;
+  }
+
+  .heading-16.hot-drops.tba-mobile {
+    margin-top: 11px;
   }
 
   .image-21 {
@@ -4548,12 +4653,17 @@ p {
   }
 
   .div-block-32.upcoming-drops {
-    top: -49px;
+    top: -893px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: -18px;
     margin-right: auto;
+  }
+
+  .div-block-32.upcoming-drops.mobile {
+    display: none;
   }
 
   .div-block-33 {
@@ -4589,7 +4699,7 @@ p {
   }
 
   .link-block-3.upcoming-drops {
-    margin-top: 1366px;
+    margin-top: 46px;
     margin-right: auto;
     margin-left: 352px;
   }
@@ -4615,7 +4725,7 @@ p {
   }
 
   .lotie-hotpicks.go-up-class {
-    left: -21px;
+    left: 0px;
     top: -16px;
     width: 150px;
   }
@@ -4727,7 +4837,7 @@ p {
   }
 
   .footer-agenda {
-    margin-top: -2px;
+    margin-top: 9px;
   }
 
   .cf-checkbox-label-2 {
@@ -4896,7 +5006,7 @@ p {
   .div-block-tablet._1._2 {
     position: static;
     overflow: visible;
-    margin-top: -82px;
+    margin-top: -200px;
     margin-left: 3px;
   }
 
@@ -4906,7 +5016,7 @@ p {
 
   .div-block-tablet._1._3 {
     overflow: visible;
-    margin-top: -63px;
+    margin-top: -6px;
     margin-left: 4px;
   }
 
@@ -5059,8 +5169,15 @@ p {
   }
 
   .div-block-32.upcoming-drops {
+    display: none;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .div-block-32.upcoming-drops.mobile {
+    top: -2178px;
+    display: block;
+    margin-top: -6px;
   }
 
   .collection-item-4 {
@@ -5102,8 +5219,8 @@ p {
   }
 
   .link-block-3.upcoming-drops {
-    margin-top: 2606px;
-    margin-left: 20px;
+    margin-top: 121px;
+    margin-left: 24px;
   }
 
   .div-block-36 {
@@ -5305,7 +5422,7 @@ p {
   }
 
   .footer-agenda {
-    margin-top: 0px;
+    margin-top: 58px;
   }
 
   .cf-checkbox-label-2 {
@@ -5400,12 +5517,17 @@ p {
 
   .div-block-tablet._1._2 {
     height: auto;
-    margin-top: -89px;
+    margin-top: -227px;
+    padding-bottom: 45px;
   }
 
   .div-block-tablet._1._3 {
     height: auto;
-    margin-top: -63px;
+    margin-top: -26px;
+  }
+
+  .div-block-tablet._1._3.tablet.go-up-class {
+    margin-top: -175px;
   }
 
   .paragraph {
@@ -5562,6 +5684,7 @@ p {
 
   .heading-19 {
     left: 4px;
+    margin-top: -40px;
   }
 
   .heading-19.regular-event.regular {
@@ -5622,8 +5745,14 @@ p {
 
   .div-block-32.upcoming-drops {
     position: static;
-    display: block;
+    display: none;
     margin-top: -6px;
+  }
+
+  .div-block-32.upcoming-drops.mobile {
+    position: relative;
+    top: -2194px;
+    margin-top: -37px;
   }
 
   .collection-item-4 {
@@ -5683,8 +5812,10 @@ p {
   }
 
   .link-block-3.upcoming-drops {
-    margin-top: 2589px;
+    position: static;
+    margin-top: 0px;
     margin-right: 0px;
+    margin-left: 22px;
   }
 
   .cf-gradient-span {
@@ -5883,6 +6014,10 @@ p {
     background-attachment: fixed;
   }
 
+  .cf-footer-copyright-wrapper {
+    margin-bottom: 66px;
+  }
+
   .cf-footer-link-inner-wrapper.bottom-padding {
     margin-bottom: 0px;
   }
@@ -5916,6 +6051,10 @@ p {
 
   .cf-footer-section {
     margin-top: -5px;
+  }
+
+  .footer-agenda {
+    margin-top: -162px;
   }
 
   .footer-agenda.upcoming {
