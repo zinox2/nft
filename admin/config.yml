@@ -990,10 +990,31 @@ collections:
             name: 5a0ea5a1
             widget: string
           - hint: >-
+              Original text: If you need promo campaign rates or really
+              affordable custom made website for your NFT project, feel free to,
+              key: 303535f1
+            label: Text
+            name: 303535f1
+            widget: text
+          - hint: 'Original text: contact us, key: 8556e9e'
+            label: Text
+            name: 8556e9e
+            widget: string
+          - hint: |-
+              Original text: .
+                      , key: -7ec74664
+            label: Text
+            name: '-7ec74664'
+            widget: string
+          - hint: >-
               Original text: Oops! Something went wrong while submitting the
               form., key: -7c112e99
             label: Text
             name: '-7c112e99'
+            widget: string
+          - hint: 'Original text: 15$ - gold plan, key: -242a8eea'
+            label: Text
+            name: '-242a8eea'
             widget: string
           - hint: >-
               Original text: We will contact you over Twitter or E-mail
@@ -1005,9 +1026,27 @@ collections:
             label: Text
             name: '-2bfe2025'
             widget: string
-          - hint: 'Original text: 15$ - gold plan, key: -242a8eea'
+          - hint: 'Original text: Get in touch with us, key: 5d4fbc46'
             label: Text
-            name: '-242a8eea'
+            name: 5d4fbc46
+            widget: string
+          - hint: >-
+              Original text: Tell us what you need help with. Our team is here
+              to help you with everything regarding NFTs., key: -20882a06
+            label: Text
+            name: '-20882a06'
+            widget: text
+          - hint: 'Original text: SERVICES, key: -7f24ffa2'
+            label: Text
+            name: '-7f24ffa2'
+            widget: string
+          - hint: 'Original text: Promo Campaign Packages, key: -4b2e96f4'
+            label: Text
+            name: '-4b2e96f4'
+            widget: string
+          - hint: 'Original text: Building Your NFT Website, key: 29851d76'
+            label: Text
+            name: 29851d76
             widget: string
       - label: Links
         name: links
@@ -1077,6 +1116,10 @@ collections:
             label: Link
             name: 372eeea8
             widget: string
+          - hint: 'Original link: /contact-us-regarding-promo, key: -12df11ee'
+            label: Link
+            name: '-12df11ee'
+            widget: string
       - label: Images
         name: images
         file: cms/_data/images.json
@@ -1125,7 +1168,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: i7e65ef42
+            name: i2d325b22
             widget: object
             fields:
               - name: url
